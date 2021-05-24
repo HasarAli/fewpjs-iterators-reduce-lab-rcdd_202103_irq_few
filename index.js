@@ -6,4 +6,4 @@ function totalBatteries() {
   return batteryBatches.reduce( (total, battery) => total + battery )
 }
 
-totalBatteries();
+console.log(totalBatteries())
