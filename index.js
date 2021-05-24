@@ -6,5 +6,3 @@ function totalBatteries() {
   const res =  batteryBatches.reduce((total, battery) => total + battery, 0)
   return parseInt(res)
 }
-
-console.log(totalBatteries())
